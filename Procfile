@@ -1,2 +1,1 @@
-web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
-web: bin/start-nginx-static
+web: bin/start-nginx-static bundle exec unicorn -c config/unicorn.rb
