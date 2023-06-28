@@ -33,6 +33,4 @@ gem 'net-smtp'
 gem 'net-imap'
 gem 'net-pop'
 gem 'unicorn'
-gem 'unicorn-rails'
-gem 'rake', group: :production
 gem 'bootsnap', '~> 1.1.7'
